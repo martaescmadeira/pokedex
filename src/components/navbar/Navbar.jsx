@@ -14,8 +14,8 @@ function NavBar() {
               height="30"/>
               </Navbar.Brand>
           <Nav className="me-auto">
-            <Link to="/">Home</Link>
-            <Link to="/about">About</Link>
+            <Link style={{ textDecoration: "none", color:"white", marginRight: "20px" }} to="/">Home</Link>
+            <Link style={{ textDecoration: "none", color:"white"}} to="/about">About</Link>
             
           </Nav>
         </Container>
