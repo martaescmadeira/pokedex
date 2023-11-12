@@ -7,12 +7,12 @@ import NavBar from './components/navbar/Navbar';
 
 function App() {
   return (
-    <Router>
+    <Router basename='/pokedex'>
       <NavBar/>
       <Routes>
-  <Route path="/about" element={<About />} />
-  <Route path="/" element={<PokedexPage />} />
-</Routes>
+        <Route path="/about" element={<About />} />
+        <Route path="/" element={<PokedexPage />} />
+      </Routes>
 
     </Router>
   );
